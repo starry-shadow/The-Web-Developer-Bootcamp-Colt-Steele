@@ -1,0 +1,2 @@
+- when a request is made to a server, the server delivers the end result using instructions(code) made by people
+- 

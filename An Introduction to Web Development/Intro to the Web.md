@@ -1,0 +1,6 @@
+- the internet supports the web
+- the web is known as the World Wide Web where information can be shared through the internet
+- information is transferred by the web using HTTP(Hyper Text Transfer Protocol)
+- the info is identified using URL's(Uniform Resource Locators)
+- a web server is a computer which can give the requests
+- client is the computer that gives a request to the server
