@@ -1,0 +1,64 @@
+.circle{
+	position: relative;
+	top:250px;
+	width: 300px;
+	height:300px;
+	background-color:magenta;
+	transition: transform 2s ease-in-out, background-color 3s, border-radius 2s;
+	/*transition: 1s ease-in-out;*/
+    /*transition: background-color 3s;*/
+}
+.circle:hover{
+	transform: translateX(620px) rotate(45deg);
+	background-color:aqua;
+    /*width: 200px;*/
+	/*background-color:cyan;*/
+	border-radius:50%;
+}
+h1{ /*css class for the properties of all h1*/
+	width: 30%;
+	/*border: 5px, black,solid;*/
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	margin: 20px auto;
+	padding:0.5em;
+}
+h1:nth-child(1){ /* has properties for each h1 depeding on its order*/
+	background-color: #757780;
+	/*transform: rotate(45deg);*/
+	transition: 1s;
+}
+h1:nth-child(1):hover{ /* has properties for each h1 depeding on its order*/
+	background-color: #757780;
+	transform: rotate(45deg);
+}
+h1:nth-child(2){
+	background-color: #D2CCA1;
+	transition: 1s;
+}
+h1:nth-child(2):hover{
+	transform: scale(2);
+}
+h1:nth-child(3){
+	background-color: #387780;
+	transition: 1s;
+}
+h1:nth-child(3):hover{
+	transform: translateX(200px);
+}
+h1:nth-child(4){
+	background-color: #DBD4D3;
+	transition: 1s;
+}
+h1:nth-child(4):hover{
+	/*transform: translateY(100px);*/
+	transform: translate(100px, 150px);
+}
+h1:nth-child(5){
+	background-color: #E83151;
+	transition: 1s;
+}
+h1:nth-child(5):hover{
+	transform: skew(10deg, 25deg);
+}

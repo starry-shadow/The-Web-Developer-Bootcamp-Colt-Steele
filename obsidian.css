@@ -1,0 +1,12 @@
+h1{
+	background-color:#387780;
+	width: 30%;
+	border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin: 20px auto;
+	transition:1s;
+}
+h1:hover{
+	transform:translateX(100px);
+}
